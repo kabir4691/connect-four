@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid black;
+  width: 142px;
+  height: 122px;
+}
+
+.grid div {
+  border: 1px solid green;
+  width: 20px;
+  height: 20px;
+}
+
+.grid div.filled {
+  border: none;
+}
+
+.player-one {
+  background-color: blue;
+}
+
+.player-two {
+  background-color: red;
+}
